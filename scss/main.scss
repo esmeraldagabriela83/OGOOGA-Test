@@ -1,0 +1,363 @@
+
+* {
+  box-sizing: border-box;
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+@mixin xs {
+  @media only screen and (min-width: 420px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+
+body {
+    background-color: #EFC32D5E;
+    font-size: 20px;
+    color:#933331;
+    @include xs{
+      background-color: #515E6F;
+      color:#FFFFFFF2;
+      font-size: 18px;
+    }
+    @include sm {
+      background-color: #AFEEEE;
+      color:#3D3D3D;
+      font-size: 18px;
+    }
+    @include md{
+      background-color: #FFFFFF;
+      color:#3D3D3D;
+      font-size: 16px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.container {
+  max-width: 1156px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 959px) {
+  #nav-header{
+    height:auto;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #nav-header{
+    height:65px;
+  }
+}
+
+#nav-header{
+  background: transparent linear-gradient(180deg, #171717 0%, #3D3D3D 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+/*                                                   Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  padding: 0.7em 0 0 0;
+  //box-shadow: 1px 1px 1.5px 1.5px gray;
+}
+
+@media only screen and (min-width: 960px) {
+  .topnav {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+
+    #myLinks{
+      font-size: 12px;
+    }
+  }
+}
+
+
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+@media only screen and (min-width: 960px) {
+  .topnav #myLinks {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .topnav #myLinks {
+    display: none;
+  }
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #FFFFFF;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 959px) {
+  .topnav a {
+    box-shadow: 0.3px 0.3px 0.35px 0.35px gray;
+  }
+}
+
+/* Style the hamburger menu */
+@media only screen and (max-width: 959px) {
+  .topnav a.icon {
+    margin-top: 0.3em;
+    //background:#171717;
+      background-color:transparent linear-gradient(180deg, #171717 0%, #3D3D3D 100%) 0% 0% no-repeat padding-box;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .topnav a.icon {
+    display: none;
+  }
+}
+
+/* Add a  background color on mouse-over */
+.topnav a:hover {
+  //background-color: MintCream;
+  background-color:transparent linear-gradient(180deg, #171717 0%, #3D3D3D 100%) 0% 0% no-repeat padding-box;
+ color:#FFEE00;
+  font-weight: bold;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  //background-color: #785807;
+//   background: transparent linear-gradient(180deg, #171717 0%, #3D3D3D 100%) 0% 0% no-repeat padding-box;
+// opacity: 1;
+  font-family: 'Alegreya', serif;
+ font-size: 20px;
+ letter-spacing: 0px;
+
+ #ogooga-logo{
+   color:#FFFFFF;
+ }
+ #test-logo{
+   color:#FFEE00;
+ }
+}
+
+// #mainImage{
+//   height: 100vh;
+//   width: 100vw;
+//   background-repeat: no-repeat;
+//   background-image: url("../images/main-image.png");
+//   background-position: center;
+//   background-size: cover;
+// }
+
+section{
+  border:3px dotted red;
+  article{
+      border:3px dotted green;
+    margin-left:-0.7em;
+    .title-h1{
+        // padding: 50px 0;
+      font-family: 'Roboto', sans-serif;
+      //font-size: 48px;
+opacity: 1;
+text-align: left;
+  color:#933331;
+padding: 20px 0;
+font-size: 24px;
+@include xs{
+color:#FFFFFFF2;
+padding: 30px 0;
+font-size: 28px;
+}
+@include sm {
+color: #5B5B5B;
+  padding: 40px 0;
+  font-size: 38px;
+}
+@include md{
+color: #5B5B5B;
+padding: 50px 0;
+font-size: 48px;
+}
+    }
+
+    .title-h3{
+      // font-size:36px;
+
+        font-family: 'Alegreya', serif;
+        opacity: 1;
+      font-size:20px;
+      color:#933331;
+      @include xs{
+        font-size:24px;
+        color:#FFFFFFF2;
+      }
+      @include sm {
+          font-size:26px;
+          color: #5B5B5B;
+      }
+      @include md{
+        font-size:36px;
+          color:#5B5B5B;
+      }
+
+    }
+
+    .paragraph{
+        //padding: 20px 0;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      color: #5B5B5B;
+opacity: 1;
+text-align: left;
+color:  #3D3D3D;
+  padding: 10px 0;
+@include xs{
+color:#FFFFFFF2;
+  padding: 10px 0;
+}
+@include sm {
+color: #3D3D3D;
+      padding: 15px 0;
+}
+@include md{
+color:  #3D3D3D;
+      padding: 20px 0;
+}
+    }
+
+    #booksAndText , #fireAndText{
+      border:3px dotted yellow;
+
+.books , .fire{
+width:auto;
+  //border:3px solid indigo;
+}
+
+#booksImage {
+  height: 100px;
+  width: 100px;
+    @include xs{
+      height: 126px;
+      width: 126px;
+    }
+    @include sm {
+      height: 166px;
+      width: 166px;
+    }
+    @include md{
+      height: 176px;
+      width: 176px;
+    }
+
+    background-repeat: no-repeat;
+    background-image: url("../images/books-ogooga.png");
+    background-position: center;
+    background-size: contain;
+  //border:3px solid magenta;
+}
+
+#fireImage{
+  height: 100px;
+  width: 100px;
+    @include xs{
+      height: 126px;
+      width: 126px;
+    }
+    @include sm {
+      height: 166px;
+      width: 166px;
+    }
+    @include md{
+      height: 176px;
+      width: 176px;
+    }
+
+    background-repeat: no-repeat;
+    background-image: url("../images/fire-ogooga.png");
+    background-position: center;
+    background-size: contain;
+  //border:3px solid magenta;
+}
+
+    }
+
+  }
+}
+/*-------------------------------------------------------------------------------*/
+
+.center-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em;
+}
+
+/*------------------------------------------------------------------------------*/
+#booksAndText , #fireAndText{
+  display:block;
+  @include xs{
+    display:block;
+  }
+  @include sm {
+display: flex;
+  }
+  @include md{
+  display: flex;
+  }
+
+}
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+footer{
+  color:#FFFFFF;
+}
+
+.footerBackground{
+  background: transparent linear-gradient(180deg, #171717 0%, #3D3D3D 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+/**/

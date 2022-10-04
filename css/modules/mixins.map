@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mixins.css",
+	"sources": [
+		"../../scss/modules/mixins.scss"
+	],
+	"sourcesContent": [
+		"\r\n@mixin xs {\r\n  @media only screen and (min-width: 420px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin sm {\r\n  @media only screen and (min-width: 1024px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin md {\r\n  @media only screen and (min-width: 1280px) {\r\n    @content;\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

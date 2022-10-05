@@ -6,9 +6,9 @@
 https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
  */
 
-.dark-section{
+#dark-section{
   //border:3px solid red;
-  height: 404px;
+  height: auto;
  width: 100%;
  background-repeat: no-repeat;
  background-image: url(../images/dark-background.jpg);
@@ -17,8 +17,11 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
 
  color: $mdBackgroundColor;
 
+    padding-top:5em;
+    padding-bottom: 1em;
+
  #dark-links-ul{
-   margin-top:1em;
+padding-bottom: 3em;
 li{
   margin:0.5em;
   a{
@@ -44,6 +47,72 @@ display: flex;
    }
  }
 
-/**/
+ /*------article with golden nugget photo and text-------*/
+
+.dark-article-photo-text{
+  display: flex;
+
+  .center-div{
+    p{
+      margin: 0.5em 0;
+    }
+
+p#dark-stars-section{
+  .fa-star{
+color: #E6A100;
+opacity: 1;
+width: 14px;
+height: 13px;
+  }
+}
+
+p#dark-thumbs-up{
+
+  background: #3C3E4D 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+
+  .fa-thumbs-up{
+    color:#0EF68A;
+    width: 12px;
+height: 14px;
+margin-right: 1em;
+  }
+}
+
+  }
+}
+
+ /*------article with golden nugget photo and text-------*/
+
+#dark-golden-title{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+letter-spacing: 0px;
+opacity: 1;
+}
+
+.dark-btn-win-now{
+  width: 160px;
+height: 40px;
+
+border:none;
+background: transparent linear-gradient(270deg, #C778FB 0%, #0DC2FB 100%) 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+margin:2em 0 2em 0;
+
+text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+letter-spacing: 0px;
+//color: #FFFFFF;
+   color: $mdBackgroundColor;
+}
 
 }
+
+/*-----------------------------------------------------------------------------------*/

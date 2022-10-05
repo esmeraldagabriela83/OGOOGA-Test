@@ -1,0 +1,236 @@
+@import "../modules/mixins";
+@import "../modules/colors"; /*--------------------------------------------------------------------------------*/
+
+.offer-section {
+//  border: 3px solid cornflowerblue;
+
+  .offer-article {
+  //  border: 3px solid magenta;
+    height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include xs {
+    justify-content:space-around;
+  }
+  @include sm {
+    justify-content: space-around;
+  }
+  @include md {
+  justify-content:space-around;
+  }
+
+    // width: 1146px;
+    // height: 100px;
+    height: auto;
+    margin: 33px 0;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 3px #00000029;
+    border-radius: 55px;
+    opacity: 1;
+
+/*------------bwin first------------------------------------------------------------------------*/
+
+    .bwin-first {
+      width: 78px;
+      height: 78px;
+      background: #FFFFFF 0 0 no-repeat padding-box;
+      border: 1px solid #DFDFDF;
+      opacity: 1;
+      border-radius: 50%;
+      margin: 1em 0.5em;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      @include xs {
+        color:$xsBackgroundColor;
+      }
+    }
+
+    .bwin-first::before {
+      content: "1";
+      position: absolute;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      opacity: 1;
+      right: 0;
+      top: 0;
+      text-align: center;
+      color: #292929;
+      background: #FFD138 0 0 no-repeat padding-box;
+      border: 1px solid #DFDFDF;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+    }
+
+/*--------------------------bwin first------------------------------------------------------------*/
+
+/*----------------------------bwin second-------------------------------------------------------------------*/
+
+.bwin-second {
+  width: 78px;
+  height: 78px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 1em 0.5em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  @include xs {
+    color:$xsBackgroundColor;
+  }
+}
+
+.bwin-second::before {
+  content: "2";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  opacity: 1;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #292929;
+  background: #FFD138 0 0 no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/*--------------------------------bwin second------------------------------------------------------------------*/
+
+
+div.offer-title-stars{
+  //border:3px dotted red;
+
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 16px;
+  letter-spacing: 0px;
+  color: #E6A100;
+  opacity: 1;
+  text-align: center;
+
+  h3{
+    text-align: center;
+  }
+}
+
+
+div.roundIoffer{
+  text-align: center;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  letter-spacing: 0px;
+  color: #5B5B5B;
+  opacity: 1;
+  background: #FFD138 0% 0% no-repeat padding-box;
+border: 1px solid #DFDFDF;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
+
+
+p.middleParagraphoffer{
+  text-align: left;
+  font-family: 'Alegreya', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+letter-spacing: 0px;
+color: #5B5B5B;
+opacity: 1;
+//border:3px solid olive;
+
+width: 70%;
+text-align: center;
+
+@include xs {
+  width: 70%;
+  text-align: center;
+}
+@include sm {
+width: 70%;
+text-align: center;
+}
+@include md {
+width: 80%;
+margin:0 -3em;
+}
+
+}
+
+
+div.casino-review{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+letter-spacing: 0px;
+
+#casinoParagraph{
+  color: #515E6F;
+}
+
+#reviewParagraph{
+color: #CC0000;
+}
+
+}
+
+.best-offer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+  border-radius: 50%;
+  width: 78px;
+height: 78px;
+background: transparent linear-gradient(180deg, #FFEE00 0%, #E6A100 100%) 0% 0% no-repeat padding-box;
+
+text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+/**/
+
+  }
+
+  button.offer-btn {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 176px;
+    height: 50px;
+    border: none;
+    background: transparent linear-gradient(180deg, #E05950 0%, #933331 100%) 0 0 no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 0 0 2em 0;
+  }
+}

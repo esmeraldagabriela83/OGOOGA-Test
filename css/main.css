@@ -130,14 +130,8 @@
 }
 
 /*example discord------------------------------------------------------------------------------*/
-/* line 4, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
-section {
-  border: 3px dotted red;
-}
-
 /* line 7, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
 section article {
-  border: 3px dotted green;
   margin-left: -0.7em;
 }
 
@@ -336,7 +330,7 @@ section article #fireAndText #fireImage {
 }
 
 /*-------------------------------------------------------------------------------*/
-/* line 134, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 135, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
 .center-div {
   display: flex;
   align-items: center;
@@ -345,14 +339,14 @@ section article #fireAndText #fireImage {
 }
 
 /*------------------------------------------------------------------------------*/
-/* line 142, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 143, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
 #booksAndText,
 #fireAndText {
   display: block;
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 142, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 143, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
   #booksAndText,
   #fireAndText {
     display: block;
@@ -360,7 +354,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 142, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 143, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
   #booksAndText,
   #fireAndText {
     display: flex;
@@ -368,36 +362,525 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 142, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 143, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
   #booksAndText,
   #fireAndText {
     display: flex;
   }
 }
 
-/*--------------casinosOnline------------------------------------------------------------------------*/
-/* line 158, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
-#casinosOnline {
-  width: 100%;
-  background: #F8F8F8 0% 0% no-repeat padding-box;
+/*example discord------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/* line 7, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 33px 0;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 3px #00000029;
+  border-radius: 55px;
   opacity: 1;
-  border: 3px dotted blue;
+  /*------------bwin first------------------------------------------------------------------------*/
+  /*--------------------------bwin first------------------------------------------------------------*/
+  /*----------------------------bwin second-------------------------------------------------------------------*/
+  /*--------------------------------bwin second------------------------------------------------------------------*/
+  /**/
 }
 
-/* line 164, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+@media only screen and (min-width: 420px) {
+  /* line 7, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 7, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 7, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article {
+    justify-content: space-around;
+  }
+}
+
+/* line 35, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article .bwin-first {
+  width: 78px;
+  height: 78px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 1em 0.5em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 35, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article .bwin-first {
+    color: #515E6F;
+  }
+}
+
+/* line 56, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article .bwin-first::before {
+  content: "1";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  opacity: 1;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #292929;
+  background: #FFD138 0 0 no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* line 77, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article .bwin-second {
+  width: 78px;
+  height: 78px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 1em 0.5em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 77, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article .bwin-second {
+    color: #515E6F;
+  }
+}
+
+/* line 98, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article .bwin-second::before {
+  content: "2";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  opacity: 1;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #292929;
+  background: #FFD138 0 0 no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* line 118, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article div.offer-title-stars {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #E6A100;
+  opacity: 1;
+  text-align: center;
+}
+
+/* line 129, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article div.offer-title-stars h3 {
+  text-align: center;
+}
+
+/* line 135, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article div.roundIoffer {
+  text-align: center;
+  font-family: 'Alegreya', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #5B5B5B;
+  opacity: 1;
+  background: #FFD138 0% 0% no-repeat padding-box;
+  border: 1px solid #DFDFDF;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 151, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article p.middleParagraphoffer {
+  text-align: left;
+  font-family: 'Alegreya', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #5B5B5B;
+  opacity: 1;
+  width: 70%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 151, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article p.middleParagraphoffer {
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 151, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article p.middleParagraphoffer {
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 151, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+  .offer-section .offer-article p.middleParagraphoffer {
+    width: 80%;
+    margin: 0 -3em;
+  }
+}
+
+/* line 180, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article div.casino-review {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 0px;
+}
+
+/* line 187, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article div.casino-review #casinoParagraph {
+  color: #515E6F;
+}
+
+/* line 191, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article div.casino-review #reviewParagraph {
+  color: #CC0000;
+}
+
+/* line 197, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section .offer-article .best-offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  background: transparent linear-gradient(180deg, #FFEE00 0%, #E6A100 100%) 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* line 221, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_offer-section.scss */
+.offer-section button.offer-btn {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  width: 176px;
+  height: 50px;
+  border: none;
+  background: transparent linear-gradient(180deg, #E05950 0%, #933331 100%) 0 0 no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  margin: 0 0 2em 0;
+}
+
+/*example discord------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/* line 5, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+.girl-winner-section {
+  margin: 1em 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 5, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 5, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 5, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section {
+    justify-content: space-between;
+  }
+}
+
+/* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+.girl-winner-section .each-girl-article {
+  width: 90%;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article {
+    width: 50%;
+  }
+}
+
+/* line 36, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+.girl-winner-section .each-girl-article .girlWinImg {
+  border-radius: 5px;
+  opacity: 1;
+  width: 90%;
+  height: auto;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 36, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article .girlWinImg {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 36, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article .girlWinImg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 36, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article .girlWinImg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* line 59, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+.girl-winner-section .each-girl-article h3.bonus250 {
+  margin: 0.5em;
+  text-align: left;
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  letter-spacing: 0;
+  opacity: 1;
+  font-size: 18px;
+  color: #933331;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 59, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article h3.bonus250 {
+    font-size: 20px;
+    color: #FFFFFFF2;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 59, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article h3.bonus250 {
+    font-size: 22px;
+    color: #3D3D3D;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 59, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article h3.bonus250 {
+    font-size: 26px;
+    color: #5B5B5B;
+  }
+}
+
+/* line 82, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+.girl-winner-section .each-girl-article p.girl-paragraph {
+  margin: 0.5em;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #3D3D3D;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 82, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article p.girl-paragraph {
+    color: #FFFFFFF2;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 82, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article p.girl-paragraph {
+    font-size: 16px;
+    color: #3D3D3D;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 82, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+  .girl-winner-section .each-girl-article p.girl-paragraph {
+    font-size: 16px;
+    color: #3D3D3D;
+  }
+}
+
+/* line 104, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_girl-winner.scss */
+.girl-winner-section .each-girl-article .girl-btn {
+  margin: 0.5em;
+  width: 176px;
+  height: 50px;
+  background: transparent linear-gradient(180deg, #FFD138 0%, #E6A100 100%) 0 0 no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  border: none;
+  font-weight: bold;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*example discord------------------------------------------------------------------------------*/
+/*--------------dark section image background-----------------------------------------------------------------------*/
+/*
+https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+ */
+/* line 9, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+.dark-section {
+  height: 404px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/dark-background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  /**/
+}
+
+/* line 20, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+.dark-section #dark-links-ul {
+  margin-top: 1em;
+  display: block;
+}
+
+/* line 22, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+.dark-section #dark-links-ul li {
+  margin: 0.5em;
+}
+
+/* line 24, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+.dark-section #dark-links-ul li a {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 420px) {
+  /* line 20, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+  .dark-section #dark-links-ul {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 20, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+  .dark-section #dark-links-ul {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 20, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_dark-section.scss */
+  .dark-section #dark-links-ul {
+    display: flex;
+  }
+}
+
+/*example discord------------------------------------------------------------------------------*/
+/*--------------casinosOnline------------------------------------------------------------------------*/
+/* line 5, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline {
+  width: 100%;
+  background: #F8F8F8 0 0 no-repeat padding-box;
+  opacity: 1;
+  /*--------------------------------------bottom part----------------------------------------------------------*/
+}
+
+/* line 11, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline h3.title-casinos-online {
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #292929;
   opacity: 1;
   font-size: 20px;
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 164, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 11, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline h3.title-casinos-online {
     font-size: 24px;
     color: #292929;
@@ -406,7 +889,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 164, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 11, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline h3.title-casinos-online {
     font-size: 26px;
     color: #292929;
@@ -415,7 +898,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 164, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 11, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline h3.title-casinos-online {
     font-size: 36px;
     color: #292929;
@@ -423,19 +906,143 @@ section article #fireAndText #fireImage {
   }
 }
 
-/* line 193, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 37, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline #casono-box-all {
-  border: 3px solid yellowgreen;
+  margin: 1em 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*-------------------------------casino-first-box---------------------------------------------*/
+  /*------------------casino first box------------------*/
+  /*-------------------------------casino-second-box---------------------------------------------*/
+  /*------------------casino second box------------------*/
+  /*-------------------------------casino-third-box---------------------------------------------*/
+  /*------------------casino third box------------------*/
 }
 
-/* line 196, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+@media only screen and (min-width: 420px) {
+  /* line 37, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+  #casinosOnline #casono-box-all {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 37, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+  #casinosOnline #casono-box-all {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 37, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+  #casinosOnline #casono-box-all {
+    justify-content: space-between;
+  }
+}
+
+/* line 55, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline #casono-box-all #casino-first-box {
-  border: 3px dotted indigo;
   position: relative;
-  height: 318px;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 1em;
 }
 
-/* line 202, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 61, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box .upper-part-box {
+  border: 1px solid gray;
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 71, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box .upper-part-box h4 {
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+/* line 76, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box .upper-part-box .fa-star {
+  color: #FCD116;
+  opacity: 1;
+  font-size: 20px;
+}
+
+/* line 83, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box p.bono-casino-online {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 92, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box h3.copH {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 101, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box p.wageringPs {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.29px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 110, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box p.bienvenida-casino-online {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 119, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box h3.hastaH3 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 128, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-first-box button.btn-blue-online-casino {
+  width: 168px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.67px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #0C6BCC 0 0 no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+}
+
+/* line 144, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline #casono-box-all #casino-first-box::before {
   content: "1";
   position: absolute;
@@ -448,9 +1055,243 @@ section article #fireAndText #fireImage {
   left: 0;
   top: 0;
   text-align: center;
+  color: #292929;
+  border: 1px solid gray;
 }
 
-/* line 220, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 163, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box {
+  position: relative;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 1em;
+}
+
+/* line 169, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box .upper-part-box {
+  border: 1px solid gray;
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 179, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box .upper-part-box h4 {
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+/* line 184, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box .upper-part-box .fa-star {
+  color: #FCD116;
+  opacity: 1;
+  font-size: 20px;
+}
+
+/* line 192, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box p.bono-casino-online {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 201, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box h3.copH {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 210, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box p.wageringPs {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.29px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 219, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box p.bienvenida-casino-online {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 228, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box h3.hastaH3 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 237, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box button.btn-blue-online-casino {
+  width: 168px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.67px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #0C6BCC 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+}
+
+/* line 255, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-second-box::before {
+  content: "2";
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 3px 3px #00000040;
+  border-radius: 2.5px;
+  opacity: 1;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #292929;
+  border: 1px solid gray;
+}
+
+/* line 279, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box {
+  position: relative;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 1em;
+}
+
+/* line 285, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box .upper-part-box {
+  border: 1px solid gray;
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 295, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box .upper-part-box h4 {
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+/* line 300, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box .upper-part-box .fa-star {
+  color: #FCD116;
+  opacity: 1;
+  font-size: 20px;
+}
+
+/* line 308, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box p.bono-casino-online {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 317, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box h3.copH {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 326, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box p.wageringPs {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.29px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 335, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box p.bienvenida-casino-online {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 344, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box h3.hastaH3 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #292929;
+  opacity: 1;
+}
+
+/* line 353, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box button.btn-blue-online-casino {
+  width: 168px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.67px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #0C6BCC 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+}
+
+/* line 371, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
+#casinosOnline #casono-box-all #casino-third-box::before {
+  content: "3";
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 3px 3px #00000040;
+  border-radius: 2.5px;
+  opacity: 1;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #292929;
+  border: 1px solid gray;
+}
+
+/* line 396, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline .paragraph-online-casino {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -461,7 +1302,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 220, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 396, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline .paragraph-online-casino {
     color: #292929;
     padding: 10px 0;
@@ -469,7 +1310,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 220, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 396, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline .paragraph-online-casino {
     color: #292929;
     padding: 15px 0;
@@ -477,14 +1318,14 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 220, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 396, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline .paragraph-online-casino {
     color: #292929;
     padding: 20px 0;
   }
 }
 
-/* line 241, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 417, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline #someNr {
   display: flex;
   align-items: center;
@@ -492,7 +1333,7 @@ section article #fireAndText #fireImage {
   padding: 0 1em;
 }
 
-/* line 248, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 424, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline p {
   margin: 0 1.5em;
   opacity: 1;
@@ -501,7 +1342,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 248, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 424, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline p {
     color: #292929;
     padding: 10px 0;
@@ -509,7 +1350,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 248, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 424, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline p {
     color: #292929;
     padding: 15px 0;
@@ -517,26 +1358,42 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 248, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 424, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
   #casinosOnline p {
     color: #292929;
     padding: 20px 0;
   }
 }
 
-/* line 267, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 443, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_casino-online-boxes.scss */
 #casinosOnline p#box-paragraph {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0 0 no-repeat padding-box;
   border: 1px solid #E6E6E6;
   border-radius: 3px;
   opacity: 1;
   padding: 0.5em;
 }
 
+/*example discord------------------------------------------------------------------------------*/
 /*----------------rino---------------------------------------------------------------*/
-/* line 281, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 8, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+.rino button.rino-btn {
+  width: 168px;
+  height: 40px;
+  border: none;
+  background: #FCD116 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0.67px;
+  color: #292929;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all {
-  border: 3px dotted pink;
   margin: 1em 0;
   width: auto;
   display: flex;
@@ -546,29 +1403,28 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 281, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all {
     justify-content: space-around;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 281, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all {
     justify-content: space-between;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 281, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all {
     justify-content: space-between;
   }
 }
 
-/* line 301, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 41, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div {
-  border: 3px dotted orange;
   padding: 0.5em;
   margin: 1em;
   font-family: 'Open Sans', sans-serif;
@@ -579,18 +1435,14 @@ section article #fireAndText #fireImage {
   font-size: 14px;
 }
 
-/* line 312, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div .rinoImg {
   height: 100px;
   width: 120px;
-  background-repeat: no-repeat;
-  background-image: url("../images/rino-ogooga.png");
-  background-position: center;
-  background-size: contain;
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 312, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all .rino-div .rinoImg {
     height: 126px;
     width: 146px;
@@ -598,7 +1450,7 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 312, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all .rino-div .rinoImg {
     height: 166px;
     width: 186px;
@@ -606,26 +1458,26 @@ section article #fireAndText #fireImage {
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 312, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+  /* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all .rino-div .rinoImg {
     height: 176px;
     width: 196px;
   }
 }
 
-/* line 334, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 70, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div .rino-subText {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 340, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 76, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div .rino-subText p i.fa-star {
   color: #E6A100;
 }
 
-/* line 352, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 85, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .article-textSort {
   display: flex;
   align-items: center;
@@ -633,7 +1485,7 @@ section article #fireAndText #fireImage {
   flex-wrap: wrap;
 }
 
-/* line 359, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 91, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .article-textSort #sort-div-paragraph {
   margin: 0.5em;
   padding: 0 0.5em;
@@ -650,7 +1502,7 @@ section article #fireAndText #fireImage {
   justify-content: space-between;
 }
 
-/* line 379, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 107, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .article-textSort .developer-div {
   border: 1px solid #FCD116;
   margin: 1em;
@@ -669,9 +1521,9 @@ section article #fireAndText #fireImage {
   font-weight: bold;
 }
 
-/* line 402, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 126, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino input#input-ogooga {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0 0 no-repeat padding-box;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
   opacity: 1;
@@ -681,7 +1533,7 @@ section article #fireAndText #fireImage {
   margin: 2em 0;
 }
 
-/* line 414, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_content.scss */
+/* line 137, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino #search-outline {
   width: 16px;
   height: 16px;
@@ -948,10 +1800,11 @@ body {
 /*----------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
-/* line 83, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/main.scss */
+/* line 91, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/main.scss */
 #ogoogaContent {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   margin-left: -0.05em;
+  color: cornflowerblue;
 }
 
 /**/

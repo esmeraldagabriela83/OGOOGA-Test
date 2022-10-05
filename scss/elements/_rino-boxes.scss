@@ -1,0 +1,145 @@
+@import "../modules/mixins";
+@import "../modules/colors";
+
+
+/*----------------rino---------------------------------------------------------------*/
+.rino {
+
+  button.rino-btn{
+    width: 168px;
+  height: 40px;
+  border:none;
+  background: #FCD116 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0.67px;
+  color: #292929;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+  }
+
+  .rino-article-all {
+  //  border: 3px dotted pink;
+    margin: 1em 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include xs {
+      justify-content: space-around;
+    }
+    @include sm {
+      justify-content: space-between;
+    }
+    @include md {
+      justify-content: space-between;
+    }
+
+    .rino-div {
+    //  border: 3px dotted orange;
+      padding: 0.5em;
+      margin: 1em;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0.58px;
+      color: #292929;
+      opacity: 1;
+      text-align: left;
+      font-size: 14px;
+
+      .rinoImg {
+        height: 100px;
+        width: 120px;
+        @include xs {
+          height: 126px;
+          width: 146px;
+        }
+        @include sm {
+          height: 166px;
+          width: 186px;
+        }
+        @include md {
+          height: 176px;
+          width: 196px;
+        }
+
+      }
+
+      .rino-subText {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          i.fa-star {
+            color: #E6A100;
+            // border:3px dotted indigo;
+          }
+        }
+      }
+    }
+  }
+
+  .article-textSort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    #sort-div-paragraph {
+      margin: 0.5em;
+      padding: 0 0.5em;
+      width: 100px;
+      height: 40px;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0.58px;
+      color: #292929;
+      opacity: 1;
+      text-align: left;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .developer-div {
+      border: 1px solid #FCD116;
+      margin: 1em;
+      padding: 0 1em;
+      width: 168px;
+      height: 40px;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0.58px;
+      color: #292929;
+      opacity: 1;
+      text-align: left;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+  }
+
+  input#input-ogooga {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    opacity: 1;
+    width: 100%;
+    height: 40px;
+    padding-left: 2em;
+    margin: 2em 0;
+  }
+
+  #search-outline {
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    color: $xsBackgroundColor;
+    margin-left: -2em;
+  }
+}
+/*-------------------------------------------------------------------------------*/

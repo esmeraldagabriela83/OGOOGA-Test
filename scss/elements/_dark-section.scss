@@ -1,0 +1,49 @@
+@import "../modules/mixins";
+@import "../modules/colors";
+ /*--------------dark section image background-----------------------------------------------------------------------*/
+
+ /*
+https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+ */
+
+.dark-section{
+  //border:3px solid red;
+  height: 404px;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-image: url(../images/dark-background.jpg);
+ background-position: center;
+ background-size: cover;
+
+ color: $mdBackgroundColor;
+
+ #dark-links-ul{
+   margin-top:1em;
+li{
+  margin:0.5em;
+  a{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+   letter-spacing: 0px;
+   color: $mdBackgroundColor;
+   opacity: 1;
+  }
+}
+
+   display: block;
+   @include xs {
+ display: block;
+   }
+   @include sm {
+display: flex;
+   }
+   @include md {
+display: flex;
+   }
+ }
+
+/**/
+
+}

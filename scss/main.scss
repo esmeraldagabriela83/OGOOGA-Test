@@ -1,5 +1,10 @@
 @import "elements/header";
 @import "elements/content";
+@import "elements/offer-section";
+@import "elements/girl-winner";
+@import "elements/dark-section";
+@import "elements/casino-online-boxes";
+@import "elements/rino-boxes";
 @import "elements/footer";
 
 @import "modules/reset";
@@ -7,6 +12,9 @@
 // @import "modules/colors";
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
+
+
+
 // * {
 //   box-sizing: border-box;
 // margin: 0;
@@ -81,9 +89,9 @@
 
 
 #ogoogaContent{
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   margin-left: -0.05em;
-  //color:red;
+  color:cornflowerblue;
 }
 
 /**/

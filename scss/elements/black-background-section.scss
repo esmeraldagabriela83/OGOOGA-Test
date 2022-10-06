@@ -1,17 +1,18 @@
 @import "../modules/mixins";
-@import "../modules/colors";
- /*--------------black background section----------------------------------------------------------------------*/
+@import "../modules/colors"; /*--------------black background section----------------------------------------------------------------------*/
 
 #black-background-section {
-  border: 3px solid red;
+  //  border: 3px solid red;
   //height: 1815px;
-   height:auto;
+  height: auto;
   background: #1B1E26 0 0 no-repeat padding-box;
   opacity: 1;
   color: $mdBackgroundColor;
   /*------------------------------upper part-----------------------------------------------*/
   .upper-article-part {
-    border: 3px solid pink;
+    //  border: 3px solid pink;
+  //  margin-top: 3em;
+  //  margin-bottom: 3em;
     width: auto;
     display: block;
     @include xs {
@@ -29,7 +30,7 @@
     }
 
     #leftDiv-upper {
-      //border: 3px solid tomato;
+    //border: 3px solid tomato;
       width: 100%;
       @include xs {
         width: 100%;
@@ -49,7 +50,20 @@
         letter-spacing: 0;
         color: $mdBackgroundColor;
         opacity: 1;
-        margin: 3em 0 2em;
+        margin:3em;
+        padding: 5em;
+
+        @include xs {
+          padding:3em;
+        }
+        @include sm {
+          padding: 2em;
+            margin:0;
+        }
+        @include md {
+            padding: 1em;
+              margin:0;
+        }
       }
 
       #left-deposit-black-paragraph {
@@ -66,7 +80,7 @@
       }
 
       #no-deposit-win {
-        //border:3px solid cornflowerblue;
+      //border:3px solid cornflowerblue;
         padding: 2em 0;
         background-color: #3C3E4D;
 
@@ -180,57 +194,273 @@
     }
 
     #rightDiv-upper {
-      border: 3px solid olive;
-
+    //  border: 3px solid olive;
       width: 100%;
       @include xs {
         width: 100%;
       }
       @include sm {
         width: 65%;
+        margin-left: 1.5em;
       }
       @include md {
         width: 65%;
+        margin-left: 3em;
       }
       /*--------first div right black-----------*/
-      /*--------second div right black-----------*/
-      /*--------third div right black-----------*/
-      p#paragraph-right-advantage {
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-weight: normal;
-        font-size: 14px;
-        letter-spacing: 0;
-        color: #F37EF3;
+      #first-content-right {
+        //border: 3px solid skyblue;
+        margin: 5em 0;
+        padding: 1.5em 0;
+        background: transparent radial-gradient(closest-side at 50% 50%, #2E303D 0%, #1B1E26 100%) 0 0 no-repeat padding-box;
+        border: 1px solid #3C3E4D;
+        border-radius: 3px;
         opacity: 1;
-          margin:1em;
-      }
+        height: auto;
+        display: block;
+        @include xs {
+          display: block;
+        }
+        @include sm {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+        }
+        @include md {
+          display: flex;
+          align-items:flex-start;
+          justify-content: space-between;
+        }
 
-      ul {
-        li {
-          //list-style-type: circle;
+        #payment-options-right-up {
           text-align: left;
           font-family: 'Roboto', sans-serif;
-          font-size: 15px;
           font-weight: normal;
+          font-size: 14px;
           letter-spacing: 0;
-          color: $mdBackgroundColor;
+          color: #F37EF3;
           opacity: 1;
-            margin:1em 0 1em 3em ;
-          position: relative;
         }
-        li::before{
-          content: "";
-          position: absolute;
-          height: 10px;
-          width: 10px;
-          background-color: #0EF68A;
-          box-shadow: 1px 3px 3px #00000040;
-          border-radius: 50%;
+
+        .display-right-up {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px dashed $mdBackgroundColor;
+          padding: 1em 0;
+          text-align: left;
+          font-family: 'Roboto', sans-serif;
+          font-weight: normal;
+          font-size: 14px;
+          letter-spacing: 0;
+          color: #FFFFFF;
           opacity: 1;
-          left: -3em;
-          top: 0;
-          margin:0 1em;
+
+          p.right-paragraph-text {
+            margin-left: 5em;
+          }
+        }
+
+        #text-right-up {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1em 0;
+
+          .text-rgh {
+            margin-left: 0;
+                        @include xs{
+                        margin-left: 0;
+                           }
+                           @include sm {
+                      margin-left: 3em;
+                           }
+                           @include md{
+                    margin-left: 3em;
+                           }
+
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0;
+            opacity: 1;
+          }
+
+          #dep-opt {
+            color: #F37EF3;
+          }
+
+          #opt-wtd {
+            color: #989898;
+          }
+        }
+        /*-----------*/
+        #visa-boxes{
+          //border:3px solid deeppink;
+            margin-left: 2.5em;
+            img{
+              margin: 0.5em;
+              width: 65px;
+            }
+        }
+      }
+      /*--------second div right black-----------*/
+      #second-content-right {
+        //border: 3px solid orange;
+        margin: 5em 0;
+        padding: 1.5em 0;
+
+        #available-games-boxes {
+          background: transparent radial-gradient(closest-side at 50% 50%, #2E303D 0%, #1B1E26 100%) 0 0 no-repeat padding-box;
+          border: 1px solid #3C3E4D;
+          border-radius: 3px;
+          opacity: 1;
+
+          #available-games-paragraph {
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0;
+            color: #F37EF3;
+            opacity: 1;
+            margin: 3em 0 1em;
+          }
+
+          #games-boxes {
+            //border: 3px solid darkmagenta;
+            padding: 1.5em 1em;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            @include xs {
+              justify-content: space-around;
+            }
+            @include sm {
+              justify-content: space-around;
+            }
+            @include md {
+              justify-content: flex-start;
+            }
+
+            .game-box-right {
+              width: 100px;
+              height: 50px;
+              background: #3C3E4D 0 0 no-repeat padding-box;
+              border-radius: 3px;
+              opacity: 1;
+              margin: 1em;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+
+        #operating-systems-icon-boxes {
+          border: 3px solid forestgreen;
+          background: transparent radial-gradient(closest-side at 50% 50%, #2E303D 0%, #1B1E26 100%) 0 0 no-repeat padding-box;
+          border: 1px solid #3C3E4D;
+          border-radius: 3px;
+          opacity: 1;
+          padding: 1.5em 0;
+
+          #operating-system-right {
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0;
+            color: #F37EF3;
+            opacity: 1;
+            margin: 1.5em 0;
+          }
+
+          #right-boxex-icons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            .right-icon-box {
+              width: 50px;
+              height: 50px;
+              background: #3C3E4D 0 0 no-repeat padding-box;
+              border-radius: 3px;
+              opacity: 1;
+              margin: 1.5em 1em;
+            }
+
+            .robot-box {
+              color: #42BB0D;
+            }
+
+            .window-box {
+              color: #76ABDF;
+            }
+
+            .mobile-box {
+              color: #E0B0FF;
+            }
+
+            .computer-box {
+              color: #AFEEEE;
+            }
+          }
+        }
+        /*------------------*/
+      }
+      /*--------third div right black-----------*/
+      #third-content-right {
+        //border: 3px solid red;
+        background: transparent radial-gradient(closest-side at 50% 50%, #2E303D 0%, #1B1E26 100%) 0 0 no-repeat padding-box;
+        border: 1px solid #3C3E4D;
+        border-radius: 3px;
+        opacity: 1;
+        margin: 5em 0;
+        padding: 1.5em 0;
+
+        p#paragraph-right-advantage {
+          text-align: left;
+          font-family: 'Roboto', sans-serif;
+          font-weight: normal;
+          font-size: 14px;
+          letter-spacing: 0;
+          color: #F37EF3;
+          opacity: 1;
+          margin: 3em 0 1em;
+        }
+
+        ul {
+          li {
+            //list-style-type: circle;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: normal;
+            letter-spacing: 0;
+            color: $mdBackgroundColor;
+            opacity: 1;
+            margin: 1em 0 1em 3em;
+            position: relative;
+          }
+
+          li::before {
+            content: "";
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            background-color: #0EF68A;
+            box-shadow: 1px 3px 3px #00000040;
+            border-radius: 50%;
+            opacity: 1;
+            left: -3em;
+            top: 5px;
+            margin: 0 1em;
+          }
         }
       }
     }
@@ -302,7 +532,7 @@
         justify-content: space-around;
       }
       @include md {
-        justify-content: space-around;
+        justify-content: flex-start;
       }
       /**/
       .black-bottom-each-btn {
@@ -318,5 +548,28 @@
     }
     /**/
   }
+
+
+.empty-icon-star{
+  color:#EED867;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*------------------------------bottom part -----------------------------------------------*/
 }

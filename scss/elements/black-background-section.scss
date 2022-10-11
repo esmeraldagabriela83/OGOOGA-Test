@@ -50,8 +50,8 @@
         letter-spacing: 0;
         color: $mdBackgroundColor;
         opacity: 1;
-        margin:3em;
-        padding: 5em;
+        //margin:3em;
+        padding: 5em 0;
 
         @include xs {
           padding:3em;
@@ -263,8 +263,8 @@
 
         #text-right-up {
           display: flex;
-          align-items: center;
-          justify-content: space-between;
+           align-items: center;
+          justify-content:space-between;
           padding: 1em 0;
 
           .text-rgh {
@@ -519,7 +519,8 @@
     }
 
     #all-btn-black-bottom-part {
-      margin: 1em 0;
+      margin: 1em 0 0 0;
+      padding-bottom: 5em;
       width: auto;
       display: flex;
       align-items: center;

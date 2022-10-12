@@ -356,6 +356,8 @@
               display: flex;
               align-items: center;
               justify-content: center;
+
+              color:$mdBackgroundColor;
             }
           }
         }
@@ -393,20 +395,20 @@
               opacity: 1;
               margin: 1.5em 1em;
             }
-
-            .robot-box {
+/*-----------------------------------------------------*/
+            .robot-box a ion-icon{
               color: #42BB0D;
             }
-
-            .window-box {
+/*-----------------------------------------------------*/
+            .window-box a ion-icon {
               color: #76ABDF;
             }
-
-            .mobile-box {
+/*-----------------------------------------------------*/
+            .mobile-box a ion-icon {
               color: #E0B0FF;
             }
-
-            .computer-box {
+/*-----------------------------------------------------*/
+            .computer-box a ion-icon {
               color: #AFEEEE;
             }
           }
@@ -541,6 +543,13 @@
         color: $mdBackgroundColor;
         padding: 1.5em 3em;
         margin: 1em 0.5em;
+
+        a{
+          color:$mdBackgroundColor;
+          //compilare Scout App compilare from scss to css
+          font-family: 'Open Sans', sans-serif;
+        }
+
       }
 
       .inregistrare-btn {

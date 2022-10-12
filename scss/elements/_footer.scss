@@ -137,6 +137,10 @@ footer {
     display: flex;
     margin: 0.5em;
 
+    a{
+      color:$mdBackgroundColor;
+    }
+
     #logo-ring {
       width: 26px;
       height: 26px;
@@ -165,6 +169,7 @@ footer {
       border: 1px solid #FFFFFF;
       border-radius: 50%;
       font-weight: bold;
+      color:$mdBackgroundColor;
     }
   }
 }

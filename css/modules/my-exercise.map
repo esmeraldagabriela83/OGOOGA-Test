@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "my-exercise.css",
+	"sources": [
+		"../../scss/modules/my-exercise.sass",
+		"../../scss/modules/_mixins.scss",
+		"../../scss/modules/_colors.scss"
+	],
+	"sourcesContent": [
+		"@import \"../modules/mixins\";\n@import \"../modules/colors\";\n",
+		"\r\n@mixin xs {\r\n  @media only screen and (min-width: 420px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin sm {\r\n  @media only screen and (min-width: 1024px) {\r\n    @content;\r\n  }\r\n}\r\n\r\n@mixin md {\r\n  @media only screen and (min-width: 1280px) {\r\n    @content;\r\n  }\r\n}\r\n",
+		"\r\n\r\n$mobileBackgroundColor: #EFC32D5E;\r\n$mobileColor: #933331;\r\n\r\n$xsBackgroundColor: #515E6F;\r\n$xsColor: #FFFFFFF2;\r\n\r\n$smBackgroundColor: #AFEEEE;\r\n$smColor: #3D3D3D;\r\n\r\n$mdBackgroundColor: #FFFFFF;\r\n$mdColor: #3D3D3D;\r\n\r\n$yellowLogo:#FFEE00;\r\n\r\n$darkGradientBackground:transparent linear-gradient(180deg, #171717 0%, #3D3D3D 100%) 0% 0% no-repeat padding-box;\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

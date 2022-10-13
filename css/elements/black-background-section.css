@@ -505,6 +505,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   /*-----------------------------------------------------*/
+  /*------------------------------------------------------------*/
   /*-----------------------------------------------------*/
   /*-----------------------------------------------------*/
   /*-----------------------------------------------------*/
@@ -526,21 +527,26 @@
 }
 
 /* line 403, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+#black-background-section .upper-article-part #rightDiv-upper #second-content-right #operating-systems-icon-boxes #right-boxex-icons .apple-box a ion-icon {
+  color: #E6E6E6;
+}
+
+/* line 407, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #second-content-right #operating-systems-icon-boxes #right-boxex-icons .window-box a ion-icon {
   color: #76ABDF;
 }
 
-/* line 407, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 411, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #second-content-right #operating-systems-icon-boxes #right-boxex-icons .mobile-box a ion-icon {
   color: #E0B0FF;
 }
 
-/* line 411, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 415, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #second-content-right #operating-systems-icon-boxes #right-boxex-icons .computer-box a ion-icon {
   color: #AFEEEE;
 }
 
-/* line 419, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 423, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #third-content-right {
   background: transparent radial-gradient(closest-side at 50% 50%, #2E303D 0%, #1B1E26 100%) 0 0 no-repeat padding-box;
   border: 1px solid #3C3E4D;
@@ -550,7 +556,7 @@
   padding: 1.5em 0;
 }
 
-/* line 428, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 432, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #third-content-right p#paragraph-right-advantage {
   text-align: left;
   font-family: 'Roboto', sans-serif;
@@ -562,7 +568,7 @@
   margin: 3em 0 1em;
 }
 
-/* line 440, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 444, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #third-content-right ul li {
   text-align: left;
   font-family: 'Roboto', sans-serif;
@@ -575,7 +581,7 @@
   position: relative;
 }
 
-/* line 453, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 457, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .upper-article-part #rightDiv-upper #third-content-right ul li::before {
   content: "";
   position: absolute;
@@ -590,7 +596,7 @@
   margin: 0 1em;
 }
 
-/* line 474, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 478, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .bottom-article-part .center-btn-free-golden-nugget {
   border: 1px solid #2E303D;
   border-radius: 3px;
@@ -601,27 +607,27 @@
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 474, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+  /* line 478, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
   #black-background-section .bottom-article-part .center-btn-free-golden-nugget {
     width: auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 474, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+  /* line 478, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
   #black-background-section .bottom-article-part .center-btn-free-golden-nugget {
     width: auto;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 474, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+  /* line 478, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
   #black-background-section .bottom-article-part .center-btn-free-golden-nugget {
     width: 1110px;
   }
 }
 
-/* line 492, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 496, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .bottom-article-part .center-btn-free-golden-nugget .black-btn-free-golden-nugget {
   width: 1050px;
   height: auto;
@@ -637,12 +643,12 @@
   color: #FFFFFF;
 }
 
-/* line 510, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 514, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .cuprinsButtons {
   /**/
 }
 
-/* line 512, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 516, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .cuprinsButtons #cuprinsParagraph {
   margin: 3em 0 2em;
   text-align: left;
@@ -654,7 +660,7 @@
   opacity: 1;
 }
 
-/* line 523, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 527, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .cuprinsButtons #all-btn-black-bottom-part {
   margin: 1em 0 0 0;
   padding-bottom: 5em;
@@ -667,27 +673,27 @@
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 523, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+  /* line 527, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
   #black-background-section .cuprinsButtons #all-btn-black-bottom-part {
     justify-content: space-around;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 523, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+  /* line 527, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
   #black-background-section .cuprinsButtons #all-btn-black-bottom-part {
     justify-content: space-around;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 523, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+  /* line 527, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
   #black-background-section .cuprinsButtons #all-btn-black-bottom-part {
     justify-content: flex-start;
   }
 }
 
-/* line 541, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 545, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .cuprinsButtons #all-btn-black-bottom-part .black-bottom-each-btn {
   background: transparent radial-gradient(gray, #1B1E26 0%, gray 100%) 0 0 no-repeat padding-box;
   color: #FFFFFF;
@@ -695,17 +701,18 @@
   margin: 1em 0.5em;
 }
 
-/* line 547, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 551, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .cuprinsButtons #all-btn-black-bottom-part .black-bottom-each-btn a {
   color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* line 553, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 559, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .cuprinsButtons #all-btn-black-bottom-part .inregistrare-btn {
   border-bottom: 1px solid #FCD116;
 }
 
-/* line 561, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
+/* line 567, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
 #black-background-section .empty-icon-star {
   color: #EED867;
 }

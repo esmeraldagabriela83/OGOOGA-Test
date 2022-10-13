@@ -21,16 +21,22 @@
   }
 
   .each-girl-article {
-  //  border: 3px solid pink;
-    width: 90%;
+   //border: 3px solid pink;
+    width: 100%;
     @include xs {
-      width: 90%;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
     @include sm {
       width: 50%;
+      display: block;
     }
     @include md {
       width: 50%;
+      display: block;
     }
 
     .girlWinImg {
@@ -90,27 +96,45 @@
       @include xs {
         color: $xsColor;
           font-size: 16px;
+          text-align: center;
       }
       @include sm {
   font-size: 16px;
         color: $smColor;
+          text-align: left;
       }
       @include md {
         font-size: 16px;
         color:#3D3D3D;
+        text-align: left;
       }
     }
 
-    .girl-btn {
-      margin: 0.5em;
-      width: 176px;
-      height: 50px;
-      background: transparent linear-gradient(180deg, #FFD138 0%, #E6A100 100%) 0 0 no-repeat padding-box;
-      border-radius: 5px;
-      opacity: 1;
-      border: none;
+  a{
+    p.girl-link {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
       font-weight: bold;
-    }
+      font-size: 14px;
+      letter-spacing: 0px;
+      color: #3D3D3D;
+      opacity: 1;
+
+       margin: 0.5em 0;
+        width: 176px;
+        height: 50px;
+        background: transparent linear-gradient(180deg, #FFD138 0%, #E6A100 100%) 0 0 no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        border: none;
+        font-weight: bold;
+      }
+  }
+
   }
 }
 /*-----------------------------------------------------------------------------------*/

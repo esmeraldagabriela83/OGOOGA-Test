@@ -1554,7 +1554,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   letter-spacing: 0;
   color: #F37EF3;
   opacity: 1;
-  margin: 3em 0 1em;
+  margin: 1em 0 1em;
 }
 
 /* line 444, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/black-background-section.scss */
@@ -2226,7 +2226,10 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
 
 /*----------------rino---------------------------------------------------------------*/
 /* line 8, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
-.rino button.rino-btn {
+.rino a.rino-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 168px;
   height: 40px;
   border: none;
@@ -2241,7 +2244,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   font-size: 16px;
 }
 
-/* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 27, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all {
   margin: 1em 0;
   width: auto;
@@ -2252,27 +2255,27 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+  /* line 27, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all {
     justify-content: space-around;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+  /* line 27, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all {
     justify-content: space-between;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 23, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+  /* line 27, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all {
     justify-content: space-between;
   }
 }
 
-/* line 41, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 45, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div {
   padding: 0.5em;
   margin: 1em;
@@ -2284,14 +2287,14 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   font-size: 14px;
 }
 
-/* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 56, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div .rinoImg {
   height: 100px;
   width: 120px;
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+  /* line 56, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all .rino-div .rinoImg {
     height: 126px;
     width: 146px;
@@ -2299,7 +2302,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+  /* line 56, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all .rino-div .rinoImg {
     height: 166px;
     width: 186px;
@@ -2307,26 +2310,26 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 52, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+  /* line 56, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
   .rino .rino-article-all .rino-div .rinoImg {
     height: 176px;
     width: 196px;
   }
 }
 
-/* line 70, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 74, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div .rino-subText {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 76, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 80, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .rino-article-all .rino-div .rino-subText p i.fa-star {
   color: #E6A100;
 }
 
-/* line 85, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 89, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .article-textSort {
   display: flex;
   align-items: center;
@@ -2334,7 +2337,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   flex-wrap: wrap;
 }
 
-/* line 91, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 95, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .article-textSort #sort-div-paragraph {
   margin: 0.5em;
   padding: 0 0.5em;
@@ -2351,7 +2354,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   justify-content: space-between;
 }
 
-/* line 107, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 111, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino .article-textSort .developer-div {
   border: 1px solid #FCD116;
   margin: 1em;
@@ -2370,7 +2373,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   font-weight: bold;
 }
 
-/* line 126, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 130, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino input#input-ogooga {
   background: #FFFFFF 0 0 no-repeat padding-box;
   border: 1px solid #E6E6E6;
@@ -2382,7 +2385,7 @@ https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&c
   margin: 2em 0;
 }
 
-/* line 137, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
+/* line 141, ../AlgoritmCatalin_curs1/OGOOGA-Test/scss/elements/_rino-boxes.scss */
 .rino #search-outline {
   width: 16px;
   height: 16px;

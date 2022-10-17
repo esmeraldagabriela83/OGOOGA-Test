@@ -5,7 +5,11 @@
 /*----------------rino---------------------------------------------------------------*/
 .rino {
 
-  button.rino-btn{
+  a.rino-btn{
+    display: flex;
+align-items: center;
+justify-content: center;
+
     width: 168px;
   height: 40px;
   border:none;

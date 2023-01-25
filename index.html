@@ -57,7 +57,7 @@
 
   <header id="nav-header">
     <!-- Top Navigation Menu -->
-    <div class="topnav container">
+    <div class="topnav container" id="up-page">
 
       <a href="index.html" class="active"><strong class="ogooga-logo">Казино</strong> <strong class="test-logo">Цар</strong></a>
 
@@ -65,12 +65,15 @@
 
       <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
-        <a href="#">Casino Reviews &or;</a>
+    
+        <!-- <a href="#">Casino Reviews &or;</a> -->
+
+        <a href="#">Casino Reviews</a>
         <a href="#">Top Online Casinos</a>
-        <a href="#">Bonuses &or;</a>
-        <a href="#">Casino Games &or;</a>
-        <a href="#">Game Developers &or;</a>
-        <a href="#">Live Casino &or;</a>
+        <a href="#">Bonuses</a>
+        <a href="#">Casino Games</a>
+        <a href="#">Game Developers</a>
+        <a href="#">Live Casino</a>
         <a href="#">Mobile Casino</a>
       </div>
 
@@ -981,30 +984,60 @@
         <p>Sort by:</p>
       </div>
 
-      <a href="#"><div class="developer-div">
-        <p>DEVELOPER </p>
-        <p> &or;</p>
-      </div></a>
+     <div class="developer-div">
+        <select name="developers" id="developers">
+          <option value="developer1">DEVELOPER</option>
+          <option value="developer2">DEVELOPER</option>
+          <option value="developer3">DEVELOPER</option>
+          <option value="developer4">DEVELOPER</option>
+        </select>
+       
+      </div>
 
-      <a href="#"><div class="developer-div">
-        <p>TYPE </p>
-        <p> &or;</p>
-      </div></a>
 
-      <a href="#"><div class="developer-div">
-        <p>THEME </p>
-        <p> &or;</p>
-      </div></a>
+      <div class="developer-div">
+        <select name="type" id="type">
+          <option value="type1">TYPE</option>
+          <option value="type2">TYPE</option>
+          <option value="type3">TYPE</option>
+          <option value="type4">TYPE</option>
+        </select>
+       
+      </div>
 
-      <a href="#"><div class="developer-div">
-        <p>RTP </p>
-        <p> &or;</p>
-      </div></a>
 
-      <a href="#"><div class="developer-div">
-        <p>RANK </p>
-        <p> &or;</p>
-      </div></a>
+      <div class="developer-div">
+        <select name="theme" id="theme">
+          <option value="theme1">THEME</option>
+          <option value="theme2">THEME</option>
+          <option value="theme3">THEME</option>
+          <option value="theme4">THEME</option>
+        </select>
+       
+      </div>
+
+
+      <div class="developer-div">
+        <select name="rtp" id="rtp">
+          <option value="rtp1">RTP</option>
+          <option value="rtp2">RTP</option>
+          <option value="rtp3">RTP</option>
+          <option value="rtp4">RTP</option>
+        </select>
+       
+      </div>
+
+
+      <div class="developer-div">
+        <select name="rank" id="rank">
+          <option value="rank1">RANK</option>
+          <option value="rank2">RANK</option>
+          <option value="rank3">RANK</option>
+          <option value="rank4">RANK</option>
+        </select>
+       
+      </div>
+   
 
     </article>
 
@@ -1062,7 +1095,17 @@
   </section>
 
 
+
+
   <footer>
+
+
+    <div id="arrow-position">
+      <a href="#up-page">
+        <img src="./images/white-arrow-01.png" alt="up-img"/>
+      </a>
+    </div>
+
 
     <article class="footerBackground first-footer">
       <div class="container wrap-content">
